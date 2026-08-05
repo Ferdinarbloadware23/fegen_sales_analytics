@@ -10,65 +10,25 @@ The primary objective is to transform raw sales data into structured information
 ---
 
 ## 2. Business Overview
-
 Fegen.id is an e-commerce retail business operating on the Shopee marketplace, specializing in computer and smartphone accessories. The business generates revenue through product sales and manages daily operations including product sourcing, inventory management, product listing, order fulfillment, shipment coordination, and sales monitoring. Operational data from Shopee Seller Center is transformed into a structured analytics workflow to improve reporting accuracy and support data-driven business decision-making.
 ---
 ## 3. Business Process
 
-### Tujuan bagian ini
-
-Menjelaskan alur bisnis dari awal sampai akhir.
-
-### Isi yang perlu ditulis
-
-Mulai dari supplier sampai customer.
-
-Contoh alur
-
-Supplier
-
-↓
-
-Purchase
-
-↓
-
-Stock
-
-↓
-
-Shopee Listing
-
-↓
-
-Customer Order
-
-↓
-
-Packing
-
-↓
-
-Shipping
-
-↓
-
-Payment Received
-
-↓
-
-Sales Report
-
-Panduan pertanyaan:
-
-- Barang datang dari mana?
-- Barang masuk ke mana?
-- Bagaimana customer membeli?
-- Kapan bisnis menerima uang?
-- Kapan data penjualan tercatat?
-
----
-
+- Supplier
+  - Product Procurement
+  - Inventory Receiving
+  - Warehouse Inventory
+- Shopee Marketplace
+  - Product Listing
+  - Customer Order
+  - Order Processing
+  - Shipment
+  - Order Completed
+  - Payment Settlement
+- Reporting
+  - Sales Report
+  - Business Analysis
+  - Business Decision
 ## 4. Business Objectives
 
 ### Tujuan bagian ini
