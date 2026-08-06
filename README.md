@@ -76,3 +76,9 @@ Project documentation is organized into the following sections:
 ## Project Status
 
 The project is currently under development. Future updates will include database implementation, analytical SQL queries, dashboards, and additional documentation as each development stage is completed.
+
+---
+
+## Data Privacy
+
+*To protect business confidentiality, selected identifiers such as customer names, supplier information, product codes, and transaction identifiers have been anonymized. Financial values may be proportionally scaled for demonstration purposes while preserving the original analytical patterns and business relationships.
