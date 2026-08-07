@@ -12,158 +12,112 @@ The primary objective is to transform raw sales data into structured information
 ## 2. Business Overview
 Fegen.id is an e-commerce retail business operating on the Shopee marketplace, specializing in computer and smartphone accessories. The business generates revenue through product sales and manages daily operations including product sourcing, inventory management, product listing, order fulfillment, shipment coordination, and sales monitoring. Operational data from Shopee Seller Center is transformed into a structured analytics workflow to improve reporting accuracy and support data-driven business decision-making.
 ---
+
 ## 3. Business Process
 
-- Supplier
-  - Product Procurement
-  - Inventory Receiving
-  - Warehouse Inventory
-- Shopee Marketplace
-  - Product Listing
-  - Customer Order
-  - Order Processing
-  - Shipment
-  - Order Completed
-  - Payment Settlement
-- Reporting
-  - Sales Report
-  - Business Analysis
-  - Business Decision
+```text
+Supplier
+    ↓
+Product Procurement
+    ↓
+Inventory Receiving
+    ↓
+Warehouse Inventory
+    ↓
+Product Listing
+    ↓
+Customer Order
+    ↓
+Order Processing
+    ↓
+Shipment
+    ↓
+Order Completed
+    ↓
+Payment Settlement
+    ↓
+Sales Report
+    ↓
+Business Analysis
+    ↓
+Business Decision
+```
+---
+
 ## 4. Business Objectives
 
-### Tujuan bagian ini
+The objectives of this project are to:
 
-Menjelaskan tujuan analisis data.
-
-Bukan tujuan bisnis.
-
-Tetapi tujuan project analytics.
-
-Isi yang perlu ditulis
-
-Apa yang ingin diketahui dari data.
-
-Misalnya
-
-- Monitoring sales
-- Monitoring inventory
-- Product performance
-- Customer behaviour
-- Business reporting
-
-Panduan pertanyaan:
-
-- Setelah analisis selesai, keputusan apa yang bisa dibuat?
-- Masalah apa yang ingin diselesaikan?
+- Monitor sales performance
+- Monitor inventory availability and stock movement
+- Evaluate product performance
+- Analyze customer purchasing behavior
+- Support operational reporting and data driven business decision-making
 
 ---
 
 ## 5. Business Questions
 
-### Tujuan bagian ini
+### Sales
 
-Daftar pertanyaan bisnis yang akan dijawab.
+- What is the total revenue?
+- Which products generate the highest revenue?
+- Which products generate the lowest sales?
+- How do monthly sales trends change over time?
 
-Misalnya
+### Inventory
 
-Sales
+- Which products need to be restocked?
+- What is the current inventory level for each product?
 
-- Berapa total revenue?
-- Produk apa yang paling laku?
-- Revenue per bulan berapa?
+### Customer
 
-Inventory
+- Who are the repeat customers?
+- Who are the highest-value customers?
 
-- Produk mana yang perlu restock?
-- Berapa stok saat ini?
+### Financial
 
-Customer
-
-- Siapa repeat customer?
-- Customer mana yang paling banyak belanja?
-
-Financial
-
-- Average Order Value
-- Contribution per Product
-
-Panduan pertanyaan:
-
-"Kalau saya pemilik bisnis, apa saja yang ingin saya tanyakan kepada Data Analyst?"
-
+- What is the average order value?
+- How much does each product contribute to total revenue?
 ---
 
 ## 6. Data Sources
 
-### Tujuan bagian ini
+The project uses operational data exported from Shopee Seller Center as the primary data source. Additional reference datasets are included to support database design and analytical requirements.
 
-Menjelaskan asal data.
+| Dataset | Source | Purpose |
+|----------|--------|---------|
+| Sales Data | Shopee Seller Center | Sales and revenue analysis |
+| Product Master | Internal product records | Product information and performance analysis |
+| Inventory Data | Internal inventory records | Inventory monitoring and stock movement |
+| Supplier Data* | Sample reference dataset | Supplier relationship and inventory reference |
 
-Isi yang perlu ditulis
-
-- Shopee Seller Center
-- Export Sales
-- Export Products
-- Stock Data
-- Supplier Data
-
-Panduan pertanyaan:
-
-- Data berasal dari mana?
-- Siapa yang membuat data?
-- Seberapa sering data diperbarui?
+> *Supplier information is simplified and anonymized for portfolio purposes.
 
 ---
 
 ## 7. Expected Deliverables
 
-### Tujuan bagian ini
+The project is expected to deliver the following outputs:
 
-Menjelaskan output project.
-
-Isi yang perlu ditulis
-
-- Excel Cleaning
-- SQL Database
-- SQL Analysis
-- Dashboard
-- Business Insights
-- Documentation
-
-Panduan pertanyaan:
-
-"Kalau project selesai, file apa saja yang dihasilkan?"
-
+- Cleaned datasets for analysis
+- Relational database implemented in MySQL
+- SQL queries for business analysis
+- Interactive dashboard in Microsoft Excel
+- Business insights and recommendations
+- Technical documentation of the analytics workflow
 ---
 
-## 8. Key Performance Indicators (KPI)
-
-### Tujuan bagian ini
-
-Menentukan metrik yang akan dipantau.
-
-Contoh
-
-Sales
+## 8. Key Performance Indicators
 
 - Total Revenue
+- Monthly Revenue
 - Total Orders
-- Average Order Value
-
-Inventory
-
 - Current Stock
-- Stock In
-- Stock Out
-
-Customer
-
-- Total Customers
 - Repeat Customers
-
-Panduan pertanyaan:
-
-"Angka apa yang ingin dipantau setiap minggu atau bulan?"
+- Average Order Value (AOV)
+- Best Selling Products
+- Product Revenue Contribution
 
 ---
 
