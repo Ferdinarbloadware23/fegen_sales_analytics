@@ -10,7 +10,9 @@ The primary objective is to transform raw sales data into structured information
 ---
 
 ## 2. Business Overview
+
 Fegen.id is an e-commerce retail business operating on the Shopee marketplace, specializing in computer and smartphone accessories. The business generates revenue through product sales and manages daily operations including product sourcing, inventory management, product listing, order fulfillment, shipment coordination, and sales monitoring. Operational data from Shopee Seller Center is transformed into a structured analytics workflow to improve reporting accuracy and support data-driven business decision-making.
+
 ---
 
 ## 3. Business Process
@@ -123,27 +125,19 @@ The project is expected to deliver the following outputs:
 
 ## 9. Project Scope
 
-### Tujuan bagian ini
+This project includes the following activities:
 
-Menentukan batasan project.
+- Data cleaning and preparation
+- Relational database design and implementation
+- SQL-based data analysis
+- Dashboard development using Microsoft Excel
+- Business insight generation and documentation
 
-Isi yang perlu ditulis
+This project does not include:
 
-Project mencakup:
+- Machine learning or predictive modeling
+- Sales forecasting
+- Customer segmentation
+- Real-time data integration
 
-- Data Cleaning
-- SQL Analysis
-- Dashboard
 
-Project tidak mencakup:
-
-- Machine Learning
-- Forecasting
-- Customer Segmentation
-- Power BI
-
-Panduan pertanyaan:
-
-"Apa yang dikerjakan?"
-
-"Apa yang tidak dikerjakan?"
