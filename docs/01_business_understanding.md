@@ -1,4 +1,4 @@
-# Business Understanding
+# 01. Business Understanding
 
 ## 1. Project Overview
 Fegen Sales Analytics is an end-to-end sales analytics project developed using operational data from Fegen.id, an e-commerce business operating on the Shopee marketplace.
